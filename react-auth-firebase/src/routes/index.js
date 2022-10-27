@@ -3,6 +3,7 @@ import Dashboard from "../components/Dashboard";
 import Landing from "../components/Landing";
 import Login from "../components/Login";
 import Register from "../components/Register";
+import Reset from "../components/Reset";
 
 const SetupRoutes = () =>{
 return(
@@ -12,6 +13,7 @@ return(
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/reset" element={<Reset />} />
         </Routes>
     </BrowserRouter>
 )
